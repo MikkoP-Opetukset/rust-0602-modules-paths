@@ -2,5 +2,10 @@
 name = "rust-0602-modules-paths"
 version = "0.1.0"
 edition = "2024"
+default-run = "rust-0602-modules-paths"
+
+[lib]
+name = "arena"
 
 [dependencies]
+rand = "0.10"
